@@ -8,7 +8,6 @@
 This demonstration will show you how to get started and implement an Azure Account in order to do these labs in the future. We will learn how get free Azure account, Create a Resource Group, Storage account, and a Virtual Machine, as well as how to connect to it.
 
  
-
 <h2>Requirements</h2>
 
  - Computer w/ Internet Connection
