@@ -5,12 +5,9 @@
 <p align="justify">
 <h1>Microsoft Azure</h1>
 
-This demonstration will show how to do the following:
-  - Setup a FREE* Azure account
-  - Create a Resource Group
-  - Create a Storage Account
-  - Create a Virtual Machine (VM)
-  - Connect to the VM using Remote Desktop
+This demonstration will show you how to get started and implement an Azure Account in order to do these labs in the future. We will learn how get free Azure account, Create a Resource Group, Storage account, and a Virtual Machine, as well as how to connect to it.
+
+ 
 
 <h2>Requirements</h2>
 
@@ -42,8 +39,8 @@ Go to [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-u
 
 <img src="https://i.imgur.com/5Jo1cEg.jpg" height="50%" width="50%" alt="Azure Step 2-2"/>
 
- - Name your "Resource group" to whatever you want (for this example i am using RG-01).
- - Change the "Region" to a location that is closest to you (for this example uses (US) West US 3)
+ - Name your "Resource group" to whatever you want for this example i am using (RG-01).
+ - Change the "Region" to a location that is closest to you for this example uses ((US) West US 3).
  - Skip everything else and click "Review + Create" on the lower left, which you should have "Validation passed" on the next page.
  - Click "Create"
 
@@ -62,13 +59,12 @@ Go to [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-u
 
 <img src="https://i.imgur.com/pY1QkBp.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
- - Use the same resource group that was just created (for this example use RG-01).
- - Create a unique name for the storage account that hasn't already been taken (for this example use labsaname).
- - Choose the same region (this example use (US) West US 3).
+ - Use the same resource group that was just created for this example use (RG-01).
+ - Create a unique name for the storage account that hasn't already been taken for this example use (labsaname).
+ - Choose the same region for this example use ((US) West US 3).
  - Skip everything else and click "Review", then "Create".
 
 <img src="https://i.imgur.com/uhzsXAJ.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-
 <img src="https://i.imgur.com/6Yoibis.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 4) Creating a Virtual Machine
@@ -82,21 +78,19 @@ Go to [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-u
 
 <img src="https://i.imgur.com/lmEIHGq.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
-  - Use the same resource group (for this example use RG-01).
-  - Name your virtual machine however you want (for this example use VM1).
-  - Use the same region (for this example use (US) West US 3).
-  - Choose your "Image" (for this example use Windows 10 Pro, version 22H2 - x64 Gen2).
-  - Choose a "Size" (for this example use Standard_E2s_v3 - 2 vcpus, 16 GiB memory).
-  - Create any username and password of your choice (for this example use the username: labuser).
+  - Use the same resource group for this example use (RG-01).
+  - Name your virtual machine however you want for this example use (VM1).
+  - Use the same region for this example use ((US) West US 3).
+  - Choose your "Image" for this example use (Windows 10 Pro, version 22H2 - x64 Gen2).
+  - Choose a "Size" for this example use (Standard_E2s_v3 - 2 vcpus, 16 GiB memory).
+  - Create any username and password of your choice for this example use the username (labuser).
   - Check the "Licensing" checkbox.
   - Click "Review + create".
    
     - Once validation passed, click "Create".
 
 <img src="https://i.imgur.com/6kpfbT9.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-
 <img src="https://i.imgur.com/oI9c0ZD.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-
 <img src="https://i.imgur.com/thpxToh.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 5) Connect to the Virtual Machine via Remote Desktop
@@ -105,7 +99,7 @@ Go to [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-u
 
 <img src="https://i.imgur.com/gOV25tN.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
- - Press the Windows Key (or Start Button), type and select "Remote Desktop Connection".
+ - Press the Windows Key or Start Button, type and select "Remote Desktop Connection".
  - Input the virtual machine's Public IP Address and click Connect.
  - Enter the username and password from Step 4 above, then click OK.
 
@@ -123,5 +117,5 @@ Go to [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-u
 
 <img src="https://i.imgur.com/h3w6mmC.png.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
- - Delete Resource Group for now to save credits in Azure 
+!!!Complete!!!
 
